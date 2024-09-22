@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa"; // Importing necessary icons
+import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -11,10 +11,10 @@ export default function Home() {
         {/* Left Side - Info */}
         <div className="md:flex-1 text-center md:text-left">
           <h1 className="text-3xl font-bold text-gray-800 mb-4">
-            Hi there, I’m Aadarsha Poudel
+            Hi there, I&apos;m Aadarsha Poudel
           </h1>
           <p className="text-lg text-gray-600 mb-6">
-            I am from Kathmandu, Nepal. I'm passionate about business analytics and management. Currently seeking opportunities in the field of Business Analysis and Sales Management.
+            I am from Kathmandu, Nepal. I&apos;m passionate about business analytics and management. Currently seeking opportunities in the field of Business Analysis and Sales Management.
           </p>
           <div className="flex justify-center md:justify-start space-x-4 text-blue-500">
             <a href="https://facebook.com/yourusername" className="hover:text-blue-700">
