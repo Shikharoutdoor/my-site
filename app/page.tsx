@@ -14,16 +14,16 @@ export default function Home() {
             Hi there, I&apos;m Aadarsha Poudel
           </h1>
           <p className="text-lg text-gray-600 mb-6">
-            I am from Kathmandu, Nepal. I&apos;m CEO of <a href= "https://www.instagram.com/shikharoutdoor" className="text-blue-500">Shikhar Outdoors</a> and a passionate IT student.
+            I am from Kathmandu, Nepal. I&apos;m CEO of <a target="_blank" href= "https://www.instagram.com/shikharoutdoor" className="text-blue-500">Shikhar Outdoors</a> and a passionate IT student.
           </p>
           <div className="flex justify-center md:justify-start space-x-4 text-blue-500">
-            <a href="https://www.facebook.com/people/Aadarsha-Poudel/pfbid02vV76Gj4SFP4gg2sRDNdm8823VdS2Rura1QSs91Zg3evWXfGoVhnB2h1Z5kqx3jpbl/?mibextid=LQQJ4d" className="hover:text-blue-700">
+            <a target="_blank" href="https://www.facebook.com/people/Aadarsha-Poudel/pfbid02vV76Gj4SFP4gg2sRDNdm8823VdS2Rura1QSs91Zg3evWXfGoVhnB2h1Z5kqx3jpbl/?mibextid=LQQJ4d" className="hover:text-blue-700">
               <FaFacebook size={24} />
             </a>
-            <a href="https://www.instagram.com/pp_oudel" className="hover:text-pink-600">
+            <a target="_blank" href="https://www.instagram.com/pp_oudel" className="hover:text-pink-600">
               <FaInstagram size={24} />
             </a>
-            <a href="https://www.linkedin.com/in/aadarsha-poudel-7b00ab27a/" className="hover:text-blue-700">
+            <a target="_blank" href="https://www.linkedin.com/in/aadarsha-poudel-7b00ab27a/" className="hover:text-blue-700">
               <FaLinkedin size={24} />
             </a>
           </div>
@@ -53,7 +53,7 @@ export default function Home() {
             <FaPhoneAlt size={20} />
             <div>
               <p className="font-bold">Phone</p>
-              <p>+977-9765221333</p>
+              <p><a href="tel:+977-9765221333">+977-9765221333</a></p>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ export default function Home() {
             <FaEnvelope size={20} />
             <div>
               <p className="font-bold">Email</p>
-              <p>aadarshap438@gmail.com</p>
+              <p><a href="mailto:aadarshap438@gmail.com">aadarshap438@gmail.com</a></p>
             </div>
           </div>
 
@@ -71,7 +71,7 @@ export default function Home() {
             <FaMapMarkerAlt size={20} />
             <div>
               <p className="font-bold">Location</p>
-              <p>Kathmandu, Nepal</p>
+              <p><a href="https://maps.app.goo.gl/mqj8v6Vkc2emucYW6" target="_blank">Kathmandu, Nepal</a></p>
             </div>
           </div>
 
