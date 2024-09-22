@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaEnvelope, FaMapMarke
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 flex flex-col items-center justify-between p-6">
+    <div className="min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 flex flex-col items-center gap-10 p-6">
       
       {/* Main Content */}
       <div className="bg-white shadow-lg rounded-lg max-w-4xl w-full p-8 flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-6">
